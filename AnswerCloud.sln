@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnswerCloud", "AnswerCloud\AnswerCloud.csproj", "{228AD601-14C8-4904-B9E0-0CDA0659E851}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{DC270615-F806-4B27-BC3F-4B7514027809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{DCDA45E6-B3BA-4B7E-ADDC-F4D60174BE4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{FCA462EF-21A2-4C37-B146-9ECC09188A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1753EE96-C0AF-47F3-9084-C7BD95A8DA37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBCommon", "DBCommon\DBCommon.csproj", "{1C0983BB-08F4-46C2-882E-60BB6C37C319}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +25,17 @@ Global
 		{228AD601-14C8-4904-B9E0-0CDA0659E851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{228AD601-14C8-4904-B9E0-0CDA0659E851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{228AD601-14C8-4904-B9E0-0CDA0659E851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0983BB-08F4-46C2-882E-60BB6C37C319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0983BB-08F4-46C2-882E-60BB6C37C319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0983BB-08F4-46C2-882E-60BB6C37C319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0983BB-08F4-46C2-882E-60BB6C37C319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{228AD601-14C8-4904-B9E0-0CDA0659E851} = {FCA462EF-21A2-4C37-B146-9ECC09188A55}
+		{FCA462EF-21A2-4C37-B146-9ECC09188A55} = {DCDA45E6-B3BA-4B7E-ADDC-F4D60174BE4D}
+		{1C0983BB-08F4-46C2-882E-60BB6C37C319} = {1753EE96-C0AF-47F3-9084-C7BD95A8DA37}
 	EndGlobalSection
 EndGlobal
