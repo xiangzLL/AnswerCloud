@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AnswerDB;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -31,6 +32,8 @@ namespace AnswerCloud
             services.AddMvc();
 
             services.Configure<MyOption>(Configuration);
+
+            DataAccessCenter.Initilalize(new AnswerDbContext());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
