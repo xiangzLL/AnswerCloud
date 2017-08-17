@@ -3,12 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace AnswerCloud.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        public ValuesController(IOptions<MyOption> option)
+        {
+            
+        }
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
