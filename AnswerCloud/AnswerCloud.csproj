@@ -7,6 +7,7 @@
   <ItemGroup>
     <Folder Include="Repositories\Interface\" />
     <Folder Include="wwwroot\" />
+    <Folder Include="MiddleWare\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />

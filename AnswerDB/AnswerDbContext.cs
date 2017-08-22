@@ -1,4 +1,5 @@
 ﻿using AnswerDB.Models;
+using AnswerDB.Models.Resumes;
 using Microsoft.EntityFrameworkCore;
 using MySQL.Data.EntityFrameworkCore.Extensions;
 
@@ -16,5 +17,7 @@ namespace AnswerDB
         }
 
         public DbSet<User> Users { get; set; }
+
+        public DbSet<Resume> Resumes { get; set; }
     }
 }

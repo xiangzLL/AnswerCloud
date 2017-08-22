@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+﻿using AnswerDB.Models.Resumes;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace AnswerDB.Models
 {
@@ -7,5 +8,7 @@ namespace AnswerDB.Models
         public string Id { get; set; }
 
         public string Name { get; set; }
+
+        public Resume UserResume { get; set; }
     }
 }

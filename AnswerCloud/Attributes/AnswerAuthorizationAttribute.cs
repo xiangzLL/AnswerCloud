@@ -8,6 +8,6 @@ namespace AnswerCloud.Attributes
 {
     public class AnswerAuthorizationAttribute:AuthorizeAttribute
     {
-        public override void OnAuthorization()
+        //public override void OnAuthorization()
     }
 }
