@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AnswerDB.Models
+namespace AnswerDB.Models.Issues
 {
     public class Issue
     {
